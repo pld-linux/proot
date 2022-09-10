@@ -14,6 +14,7 @@ Patch0:		flags.patch
 URL:		https://proot-me.github.io/
 BuildRequires:	docutils
 BuildRequires:	libarchive-devel
+BuildRequires:	libxslt-progs
 BuildRequires:	pkgconfig
 BuildRequires:	python3 >= 1:3.8
 BuildRequires:	python3-devel >= 1:3.8
