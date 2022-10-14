@@ -22,6 +22,7 @@ BuildRequires:	swig
 BuildRequires:	swig-python
 BuildRequires:	talloc-devel
 BuildRequires:	uthash-devel
+ExclusiveArch:	%{arm} %{ix86} %{x8664} aarch64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
