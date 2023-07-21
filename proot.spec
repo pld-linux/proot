@@ -4,12 +4,12 @@
 
 Summary:	chroot, mount --bind, and binfmt_misc without privilege/setup for Linux
 Name:		proot
-Version:	5.3.1
+Version:	5.4.0
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	https://github.com/proot-me/proot/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	1214effe17171eae192ca5414f07f3c6
+# Source0-md5:	9b6e3e6e0e2c3bf4c2e1c450bf76e715
 Patch0:		flags.patch
 URL:		https://proot-me.github.io/
 BuildRequires:	docutils
