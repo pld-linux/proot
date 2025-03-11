@@ -5,7 +5,7 @@
 Summary:	chroot, mount --bind, and binfmt_misc without privilege/setup for Linux
 Name:		proot
 Version:	5.4.0
-Release:	
+Release:	2
 License:	GPL v2+
 Group:		Applications/System
 Source0:	https://github.com/proot-me/proot/archive/v%{version}/%{name}-%{version}.tar.gz
@@ -35,7 +35,7 @@ transparently through QEMU user-mode.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P 0 -p1
 
 %build
 export CPPFLAGS="%{rpmcppflags}"
